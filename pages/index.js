@@ -1,7 +1,5 @@
 import Head from "next/head";
-import {
-  AiFillLinkedin,
-} from "react-icons/ai";
+import { AiFillLinkedin } from "react-icons/ai";
 import profilepic from "../public/Fayssal.jpg";
 import hlc from "../public/hlc.png";
 import hlc_1 from "../public/hlc_2.png";
@@ -51,7 +49,7 @@ export default function Home() {
           </div>
         </section>
         <section>
-          <div className="">
+          <div className="bg-white">
             <h3 className="text-3xl py-1 dark:text-white ">Presentation</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200 shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1" >
               I am currently starting my 3rd year at 
@@ -63,16 +61,16 @@ export default function Home() {
               <span className="text-teal-500"> <Image src={goto_logo} width={40} height={40} /></span>
               previously known as LogMeIn,
               and one coming this winter as a <span className="text-teal-500">DevSecOps</span> intern at 
-              <span className="text-teal-500"> <Image src={intact} width={40} height={40} /></span>
+              <span className="text-teal-500"> <Image src={intact} width={60} height={40} /></span>
               I am ready for my next challenge and looking to experiment and learn in the 2024 summer internship.
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200 shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
               Having successfully completed three full years of Object-Oriented Programming, 
               I became very familiar with
-              <span className="text-teal-500"> Java </span>, that i also used a lot in my 2nd internship
-              <span className="text-teal-500">C++ </span>,
-              <span className="text-teal-500">Python </span> and
-              <span className="text-teal-500">Javascript </span>,
+              <span className="text-teal-500"> Java</span>, that i also used a lot in my 2nd internship
+              <span className="text-teal-500"> C++</span>,
+              <span className="text-teal-500"> Python</span> and
+              <span className="text-teal-500"> Javascript</span>,
               which is also the language i mainly used in my first internship.
               I intend to graduate in December of 2024, with a specialization in Data Science.
             </p>
