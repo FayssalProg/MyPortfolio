@@ -56,18 +56,18 @@ export default function Home() {
               <span className="text-teal-500"> University Laval </span>
               in <span className="text-teal-500">Software Engineering </span>
               and having completed my first internship as a <span className="text-teal-500">Front-end</span> intern at   
-              <span className="text-teal-500"> <Image src={hlc} width={40} height={40} /></span>
+              <span className="text-teal-500"> <Image src={hlc} width={80} height={40} /></span>
               , my second one as a <span className="text-teal-500">Full-Stack</span> intern at
-              <span className="text-teal-500"> <Image src={goto_logo} width={40} height={40} /></span>
+              <span className="text-teal-500"> <Image src={goto_logo} width={80} height={40} /></span>
               previously known as LogMeIn,
               and one coming this winter as a <span className="text-teal-500">DevSecOps</span> intern at 
-              <span className="text-teal-500"> <Image src={intact} width={60} height={40} /></span>
+              <span className="text-teal-500"> <Image src={intact} width={80} height={40} /></span>
               I am ready for my next challenge and looking to experiment and learn in the 2024 summer internship.
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200 shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
               Having successfully completed three full years of Object-Oriented Programming, 
               I became very familiar with
-              <span className="text-teal-500"> Java</span>, that i also used a lot in my 2nd internship
+              <span className="text-teal-500"> Java</span>, that i also used a lot in my 2nd internship,
               <span className="text-teal-500"> C++</span>,
               <span className="text-teal-500"> Python</span> and
               <span className="text-teal-500"> Javascript</span>,
@@ -79,7 +79,7 @@ export default function Home() {
             <h3 className="text-3xl py-1 dark:text-white ">Professional Experience</h3>
             <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-              <Image src={hlc} width={100} height={100} />
+              <Image src={goto_logo} width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2  text-teal-500">
                 Full-Stack intern
               </h3>
@@ -91,7 +91,6 @@ export default function Home() {
                  <span className="text-teal-500">Springboot</span>, <span className="text-teal-500">Docker</span>, 
                  <span className="text-teal-500">Kubernetes</span>, <span className="text-teal-500">PostgreSQL</span> and many more. 
               </p>
-              <Image src={hlc_1} width={1000} height={462} />
               <h4 className="py-4 text-teal-600">Skills</h4>
               <p className="text-gray-800 py-1">Java</p>
               <p className="text-gray-800 py-1">Typescript</p>
