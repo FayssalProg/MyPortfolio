@@ -11,6 +11,8 @@ import glo_1 from "../public/glo_1.png";
 import glo_2 from "../public/glo_2.png";
 import glo_3 from "../public/glo_3.png";
 import Image from "next/image";
+import goto_logo from "../public/goto_logo.svg";
+import intact from "../public/Intact_FInancial_logo.svg";
 
 
 console.log('JavaScript debug log');
@@ -38,7 +40,7 @@ export default function Home() {
               Software Engineering Intern
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-              3rd Year Software Engineering Student looking for a second internship
+              4th Year Software Engineering Student looking for a fourth internship
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
               <a href="https://www.linkedin.com/in/fayssal-laghcha/"><AiFillLinkedin /></a>
@@ -55,14 +57,19 @@ export default function Home() {
               I am currently starting my 3rd year at 
               <span className="text-teal-500"> University Laval </span>
               in <span className="text-teal-500">Software Engineering </span>
-              and having completed my first internship at  
-              <span className="text-teal-500"> <Image src={hlc} width={40} height={40} /></span>,
-              I am ready for my next challenge and looking for a summer internship in 2023
+              and having completed my first internship as a <span className="text-teal-500">Front-end</span> intern at   
+              <span className="text-teal-500"> <Image src={hlc} width={40} height={40} /></span>
+              , my second one as a <span className="text-teal-500">Full-Stack</span> intern at
+              <span className="text-teal-500"> <Image src={goto_logo} width={40} height={40} /></span>
+              previously known as LogMeIn,
+              and one coming this winter as a <span className="text-teal-500">DevSecOps</span> intern at 
+              <span className="text-teal-500"> <Image src={intact} width={40} height={40} /></span>
+              I am ready for my next challenge and looking to experiment and learn in the 2024 summer internship.
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200 shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-              Having successfully completed two full years of Object-Oriented Programming, 
+              Having successfully completed three full years of Object-Oriented Programming, 
               I became very familiar with
-              <span className="text-teal-500"> Java </span>,
+              <span className="text-teal-500"> Java </span>, that i also used a lot in my 2nd internship
               <span className="text-teal-500">C++ </span>,
               <span className="text-teal-500">Python </span> and
               <span className="text-teal-500">Javascript </span>,
@@ -72,6 +79,29 @@ export default function Home() {
           </div>
           <div className="">
             <h3 className="text-3xl py-1 dark:text-white ">Professional Experience</h3>
+            <div className="lg:flex gap-10">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
+              <Image src={hlc} width={100} height={100} />
+              <h3 className="text-lg font-medium pt-8 pb-2  text-teal-500">
+                Full-Stack intern
+              </h3>
+              <p className="py-2">
+                In my last internship at <span className="text-teal-500">GoTo</span>, I helped maintain a data pipeline of over 5 million contacts.
+                Using Java and Typescript, I implemented 2 API calls and a multi-select, multi-delete feature. I also resolved 10+ complex software issues
+                and improved endpoint security.
+                I gained experience with technologies such as <span className="text-teal-500">Kafka</span>, 
+                 <span className="text-teal-500">Springboot</span>, <span className="text-teal-500">Docker</span>, 
+                 <span className="text-teal-500">Kubernetes</span>, <span className="text-teal-500">PostgreSQL</span> and many more. 
+              </p>
+              <Image src={hlc_1} width={1000} height={462} />
+              <h4 className="py-4 text-teal-600">Skills</h4>
+              <p className="text-gray-800 py-1">Java</p>
+              <p className="text-gray-800 py-1">Typescript</p>
+              <p className="text-gray-800 py-1">Kafka</p>
+              <p className="text-gray-800 py-1">PostgreSQL</p>
+              <p className="text-gray-800 py-1">APIs</p>
+            </div>
+            </div>
             <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
               <Image src={hlc} width={100} height={100} />
@@ -102,7 +132,8 @@ export default function Home() {
               <p className="py-2">
                 In my part-time job, I essentially transmit my passion and love for programming to the younger generation. 
                 As a programming instructor, I prepare and animate entertaining programming activites or projects
-                and do my best to try to spark interest about computers in my students, using plateforms like MakeCodeArcade and Scratch
+                and do my best to try to spark interest about computers in my students, using languages
+                like Python and JavaScript and platforms like MakeCodeArcade and Scratch and 
                 for remote classes or various robots for in-person ones.  
               </p>
               <Image src={estime_1} width={400} height={600} />
