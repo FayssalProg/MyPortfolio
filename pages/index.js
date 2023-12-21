@@ -12,7 +12,7 @@ import glo_2 from "../public/glo_2.png";
 import glo_3 from "../public/glo_3.png";
 import Image from "next/image";
 import goto_logo from "../public/goto_logo.svg";
-import intact from "../public/Intact_FInancial_logo.svg";
+import intact from "../public/Intact_Financial_logo.svg";
 
 
 console.log('JavaScript debug log');
