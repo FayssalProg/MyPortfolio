@@ -91,12 +91,14 @@ export default function Home() {
                  <span className="text-teal-500">Springboot</span>, <span className="text-teal-500">Docker</span>, 
                  <span className="text-teal-500">Kubernetes</span>, <span className="text-teal-500">PostgreSQL</span> and many more. 
               </p>
-              <h4 className="py-4 text-teal-600">Skills</h4>
-              <p className="text-gray-800 py-1">Java</p>
-              <p className="text-gray-800 py-1">Typescript</p>
-              <p className="text-gray-800 py-1">Kafka</p>
-              <p className="text-gray-800 py-1">PostgreSQL</p>
-              <p className="text-gray-800 py-1">APIs</p>
+              <div className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200 shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
+                <h4 className="py-4 text-teal-600">Skills</h4>
+                <p className="text-gray-800 py-1">Java</p>
+                <p className="text-gray-800 py-1">Typescript</p>
+                <p className="text-gray-800 py-1">Kafka</p>
+                <p className="text-gray-800 py-1">PostgreSQL</p>
+                <p className="text-gray-800 py-1">APIs</p>
+              </div>
             </div>
             </div>
             <div className="lg:flex gap-10">
@@ -113,12 +115,14 @@ export default function Home() {
                 I also documented the process and became acustomed to the <span className="text-teal-500">Agile</span> methodology using the <span className="text-teal-500">Atlassian</span> tools.
               </p>
               <Image src={hlc_1} width={1000} height={462} />
+             <div className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200 shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
               <h4 className="py-4 text-teal-600">Skills</h4>
               <p className="text-gray-800 py-1">JavaScript</p>
               <p className="text-gray-800 py-1">Vue.Js</p>
               <p className="text-gray-800 py-1">Prismic</p>
               <p className="text-gray-800 py-1">Azure DevOps</p>
               <p className="text-gray-800 py-1">Kanban/Jira</p>
+              </div>
             </div>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
