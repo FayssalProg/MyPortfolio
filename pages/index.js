@@ -84,7 +84,7 @@ export default function Home() {
                 Full-Stack intern
               </h3>
               <p className="py-2">
-                In my last internship at <span className="text-teal-500">GoTo</span>, I helped maintain a data pipeline of over 5 million contacts.
+                In my most recent internship at <span className="text-teal-500">GoTo</span>, I helped maintain a data pipeline of over 5 million contacts.
                 Using Java and Typescript, I implemented 2 API calls and a multi-select, multi-delete feature. I also resolved 10+ complex software issues
                 and improved endpoint security.
                 I gained experience with technologies such as <span className="text-teal-500">Kafka</span>, 
@@ -99,6 +99,22 @@ export default function Home() {
                 <p className="text-gray-800 py-1">PostgreSQL</p>
                 <p className="text-gray-800 py-1">APIs</p>
               </div>
+            </div>
+            </div>
+            <div className="lg:flex gap-10">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
+              <Image src={intact} width={100} height={100} />
+              <h3 className="text-lg font-medium pt-8 pb-2  text-teal-500">
+                DevSecOps intern
+              </h3>
+              <p className="py-2">
+                In my upcoming internship, this winter at <span className="text-teal-500">Intact Financial Corp.</span>, I will use Java to adopt DevOps principles, automation and
+                Cloud technologies. I'll also gain hands-on experience with, Maven and  and contribute to building and deploying
+                DevSecOps tools for developers.
+                I gained experience with technologies such as <span className="text-teal-500">OpenShift</span>, 
+                 <span className="text-teal-500">Spring</span>, <span className="text-teal-500">Docker</span>, 
+                 <span className="text-teal-500">SQL</span>, <span className="text-teal-500">Jenkins</span> and many more. 
+              </p>
             </div>
             </div>
             <div className="lg:flex gap-10">
