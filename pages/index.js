@@ -48,47 +48,68 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section>
-          <div className="bg-white">
-            <h3 className="text-3xl py-1 dark:text-white ">Presentation</h3>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200 shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1" >
-              I am a
-              <span className="text-teal-500"> University Laval </span>
-              graduate in <span className="text-teal-500">Software Engineering </span>
-              and a Software engineer at 
-              <span className="text-teal-500"><Image src={goto_logo} width={80} height={40} alt="GoTo logo" /></span>
-              with a focus on back-end developpment and some DevOps expertise.
-              having completed my first internship as a <span className="text-teal-500">Front-end</span> intern at   
-              <span className="text-teal-500"> <Image src={hlc} width={80} height={40} alt="HLC logo" /></span>
-              , my second one as a <span className="text-teal-500">Full-Stack</span> intern at
-              <span className="text-teal-500"> <Image src={goto_logo} width={80} height={40} alt="GoTo Logo"/></span>
-              previously known as LogMeIn,
-              then as a <span className="text-teal-500">DevSecOps</span> intern at 
-              <span className="text-teal-500"> <Image src={intact} width={80} height={40} alt="Intact logo" /></span>
-              and finally, came back to
-              <span className="text-teal-500"> <Image src={goto_logo} width={80} height={40} alt="Goto Logo" /></span>
-              as a Front-end intern for my final internship before being hired full-time.
-            </p>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200 shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-              Having successfully completed three full years of Object-Oriented Programming, 
-              I became very familiar with
-              <span className="text-teal-500"> Java</span>, that i also used a lot in my 2nd internship,
-              <span className="text-teal-500"> C++</span>,
-              <span className="text-teal-500"> Python</span> and
-              <span className="text-teal-500"> Javascript</span>,
-              which is also the language i mainly used in my first internship.
-              I intend to graduate in December of 2024, with a specialization in Data Science.
-            </p>
-          </div>
-          <div className="">
-            <h3 className="text-3xl py-1 dark:text-white ">Professional Experience</h3>
+<section className="py-10">
+  <h3 className="text-3xl font-semibold mb-6 dark:text-white">Presentation</h3>
+
+  <div className="bg-white dark:bg-gray-800 p-6 space-y-6 rounded-xl border border-black/40 dark:border-white/20 shadow-xl">
+
+    {/* BLOCK 1 */}
+    <p className="text-gray-800 dark:text-gray-200 leading-relaxed">
+      I am a 
+      <span className="text-teal-500 font-semibold"> University Laval </span>
+      graduate in 
+      <span className="text-teal-500 font-semibold"> Software Engineering </span>
+      and a Software engineer at 
+
+      <span className="inline-flex items-center mx-1">
+        <Image src={goto_logo} width={70} height={35} alt="GoTo logo" />
+      </span>
+
+      with a focus on back-end development and DevOps.  
+      I completed my first internship as a 
+      <span className="text-teal-500 font-semibold"> Front-end </span>
+      intern at 
+
+      <span className="inline-flex items-center mx-1">
+        <Image src={hlc} width={50} height={15} alt="HLC logo" />
+      </span>
+
+      , my second as a 
+      <span className="text-teal-500 font-semibold"> Full-Stack </span>
+      intern at 
+
+      <span className="inline-flex items-center mx-1">
+        <Image src={goto_logo} width={70} height={35} alt="GoTo Logo" />
+      </span>
+
+      (previously LogMeIn), then as a 
+      <span className="text-teal-500 font-semibold"> DevSecOps </span>
+      intern at 
+
+      <span className="inline-flex items-center mx-1">
+        <Image src={intact} width={70} height={35} alt="Intact logo" />
+      </span>
+
+      and finally returned to  
+
+      <span className="inline-flex items-center mx-1">
+        <Image src={goto_logo} width={70} height={35} alt="GoTo Logo" />
+      </span>
+
+      as a Front-end intern before being hired full-time.
+    </p>
+  </div>
+  <h3 className="text-3xl font-semibold mb-6 dark:text-white pt-6">Experience</h3>
+
+  <div className="bg-white dark:bg-gray-800 p-6 space-y-6 rounded-xl border border-black/40 dark:border-white/20 shadow-xl">
+
             <div className="lg:flex gap-10">
-            <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
+  <div className="bg-white dark:bg-gray-800 p-6 space-y-6 rounded-xl border border-black/40 dark:border-white/20 shadow-xl">
               <Image src={goto_logo} width={100} height={100} alt="Goto logo" />
               <h3 className="text-lg font-medium pt-8 pb-2  text-teal-500">
                 Full-Stack intern
               </h3>
-              <p className="py-2">
+    <p className="text-gray-800 dark:text-gray-200 leading-relaxed">
                 In my most recent internship at <span className="text-teal-500">GoTo</span>, I helped maintain a data pipeline of over 5 million contacts.
                 Using Java and Typescript, I implemented 2 API calls and a multi-select, multi-delete feature. I also resolved 10+ complex software issues
                 and improved endpoint security.
@@ -96,18 +117,10 @@ export default function Home() {
                  <span className="text-teal-500">Springboot</span>, <span className="text-teal-500">Docker</span>, 
                  <span className="text-teal-500">Kubernetes</span>, <span className="text-teal-500">PostgreSQL</span> and many more. 
               </p>
-              <div className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200 shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-                <h4 className="py-4 text-teal-600">Skills</h4>
-                <p className="text-gray-800 py-1">Java</p>
-                <p className="text-gray-800 py-1">Typescript</p>
-                <p className="text-gray-800 py-1">Kafka</p>
-                <p className="text-gray-800 py-1">PostgreSQL</p>
-                <p className="text-gray-800 py-1">APIs</p>
-              </div>
             </div>
             </div>
             <div className="lg:flex gap-10">
-            <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
+  <div className="bg-white dark:bg-gray-800 p-6 space-y-6 rounded-xl border border-black/40 dark:border-white/20 shadow-xl">
               <Image src={intact} width={100} height={100} alt="intact" />
               <h3 className="text-lg font-medium pt-8 pb-2  text-teal-500">
                 DevSecOps intern
@@ -123,7 +136,7 @@ export default function Home() {
             </div>
             </div>
             <div className="lg:flex gap-10">
-            <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
+  <div className="bg-white dark:bg-gray-800 p-6 space-y-6 rounded-xl border border-black/40 dark:border-white/20 shadow-xl">
               <Image src={hlc} width={100} height={100} alt="hlc"/>
               <h3 className="text-lg font-medium pt-8 pb-2  text-teal-500">
                 Internship in Web Developpement
@@ -136,17 +149,9 @@ export default function Home() {
                 I also documented the process and became acustomed to the <span className="text-teal-500">Agile</span> methodology using the <span className="text-teal-500">Atlassian</span> tools.
               </p>
               <Image src={hlc_1} width={1000} height={462} alt="hlc"/>
-             <div className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200 shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-              <h4 className="py-4 text-teal-600">Skills</h4>
-              <p className="text-gray-800 py-1">JavaScript</p>
-              <p className="text-gray-800 py-1">Vue.Js</p>
-              <p className="text-gray-800 py-1">Prismic</p>
-              <p className="text-gray-800 py-1">Azure DevOps</p>
-              <p className="text-gray-800 py-1">Kanban/Jira</p>
-              </div>
             </div>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
+  <div className="bg-white dark:bg-gray-800 p-6 space-y-6 rounded-xl border border-black/40 dark:border-white/20 shadow-xl">
               <Image src={estime} width={180} height={140} alt="estime"/>
               <h3 className="text-lg font-medium pt-8 pb-2 text-teal-500">
                 Part-time Programming Instructor
@@ -159,17 +164,12 @@ export default function Home() {
                 for remote classes or various robots for in-person ones.  
               </p>
               <Image src={estime_1} width={400} height={600} alt="estime" />
-              <h4 className="py-4 text-teal-600">Skills</h4>
-              <p className="text-gray-800 py-1">Animating</p>
-              <p className="text-gray-800 py-1">Coding Knowledge</p>
-              <p className="text-gray-800 py-1">Teaching</p>
             </div>
           </div>
         </section>
         <section className="py-10">
-          <div>
+  <div className="bg-white dark:bg-gray-800 p-6 space-y-6 rounded-xl border border-black/40 dark:border-white/20 shadow-xl">
             <h3 className="text-3xl py-1 dark:text-white ">Projects</h3>
-          </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
           <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
             <div className="basis-1/3 flex-1 ">
@@ -204,6 +204,7 @@ export default function Home() {
             </div>
             </div>
 
+          </div>
           </div>
         </section>
       </main>
