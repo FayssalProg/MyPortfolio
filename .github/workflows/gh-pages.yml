@@ -1,6 +1,5 @@
 name: Deploy to GitHub Pages
 
-# ensure the workflow has permission to write to the repository so it can push gh-pages
 permissions:
   contents: write
   pages: write
@@ -8,7 +7,7 @@ permissions:
 on:
   push:
     branches:
-      - main  # change this if your default branch is different
+      - main
 
 jobs:
   build-and-deploy:
@@ -16,9 +15,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-          persist-credentials: true
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -28,8 +24,10 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Build and export
-        run: npm run build && npm run export
+      - name: Build and Export
+        run: |
+          npm run build
+          npm run export
 
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v4
@@ -37,3 +35,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./out
           publish_branch: gh-pages
+          force_orphan: true
