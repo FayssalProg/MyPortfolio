@@ -35,10 +35,10 @@ export default function Home() {
               Fayssal Laghcha
             </h2>
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
-              Software Engineering Intern
+              Software Engineer
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-              4th Year Software Engineering Student looking for a fourth internship
+              Back-end Software Engineer with front-end and DevOps experience
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
               <a href="https://www.linkedin.com/in/fayssal-laghcha/"><AiFillLinkedin /></a>
@@ -52,17 +52,22 @@ export default function Home() {
           <div className="bg-white">
             <h3 className="text-3xl py-1 dark:text-white ">Presentation</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200 shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1" >
-              I am currently starting my 3rd year at 
+              I am a
               <span className="text-teal-500"> University Laval </span>
-              in <span className="text-teal-500">Software Engineering </span>
-              and having completed my first internship as a <span className="text-teal-500">Front-end</span> intern at   
+              graduate in <span className="text-teal-500">Software Engineering </span>
+              and a Software engineer at 
+              <span className="text-teal-500"> <Image src={goto_logo} width={80} height={40} /></span>
+              with a focus on back-end developpment and some DevOps expertise.
+              having completed my first internship as a <span className="text-teal-500">Front-end</span> intern at   
               <span className="text-teal-500"> <Image src={hlc} width={80} height={40} /></span>
               , my second one as a <span className="text-teal-500">Full-Stack</span> intern at
               <span className="text-teal-500"> <Image src={goto_logo} width={80} height={40} /></span>
               previously known as LogMeIn,
-              and one coming this winter as a <span className="text-teal-500">DevSecOps</span> intern at 
+              then as a <span className="text-teal-500">DevSecOps</span> intern at 
               <span className="text-teal-500"> <Image src={intact} width={80} height={40} /></span>
-              I am ready for my next challenge and looking to experiment and learn in the 2024 summer internship.
+              and finally, came back to
+              <span className="text-teal-500"> <Image src={goto_logo} width={80} height={40} /></span>
+              as a Front-end intern for my final internship before being hired full-time.
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200 shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
               Having successfully completed three full years of Object-Oriented Programming, 
