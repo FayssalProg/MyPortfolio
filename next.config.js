@@ -4,12 +4,13 @@ const nextConfig = {
   swcMinify: true,
 }
 
+const isProduction = process.env.NODE_ENV === 'production';
+
 module.exports = {
-  // when deployed to https://fayssalprog.github.io/MyPortfolio
-  basePath: '/MyPortfolio',
-  assetPrefix: '/MyPortfolio/',
-  trailingSlash: true, // recommended for GitHub Pages to produce directory/index.html structure
+  basePath: isProduction ? '/MyPortfolio' : '',
+  assetPrefix: isProduction ? '/MyPortfolio/' : '',
+  trailingSlash: true,
   images: {
-    unoptimized: true // avoid next/image optimizations that break static export
+    unoptimized: true
   }
 };
