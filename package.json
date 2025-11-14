@@ -2,9 +2,13 @@
   "name": "rectify",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://fayssalprog.github.io/MyPortfolio",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "next export",
+    "predeploy": "npm run build && npm run export",
+    "deploy": "gh-pages -d out",
     "start": "next start",
     "lint": "next lint"
   },
@@ -24,6 +28,7 @@
     "eslint": "8.24.0",
     "eslint-config-next": "12.3.1",
     "postcss": "^8.4.16",
-    "tailwindcss": "^3.1.8"
+    "tailwindcss": "^3.1.8",
+    "gh-pages": "^4.0.0"
   }
 }
