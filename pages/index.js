@@ -44,7 +44,7 @@ export default function Home() {
               <a href="https://www.linkedin.com/in/fayssal-laghcha/"><AiFillLinkedin /></a>
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={profilepic} layout="fill" objectFit="cover" />
+              <Image src={profilepic} fill className="object-cover" alt="Fayssal's profile picture" />
             </div>
           </div>
         </section>
@@ -56,17 +56,17 @@ export default function Home() {
               <span className="text-teal-500"> University Laval </span>
               graduate in <span className="text-teal-500">Software Engineering </span>
               and a Software engineer at 
-              <span className="text-teal-500"> <Image src={goto_logo} width={80} height={40} /></span>
+              <span className="text-teal-500"><Image src={goto_logo} width={80} height={40} alt="GoTo logo" /></span>
               with a focus on back-end developpment and some DevOps expertise.
               having completed my first internship as a <span className="text-teal-500">Front-end</span> intern at   
-              <span className="text-teal-500"> <Image src={hlc} width={80} height={40} /></span>
+              <span className="text-teal-500"> <Image src={hlc} width={80} height={40} alt="HLC logo" /></span>
               , my second one as a <span className="text-teal-500">Full-Stack</span> intern at
-              <span className="text-teal-500"> <Image src={goto_logo} width={80} height={40} /></span>
+              <span className="text-teal-500"> <Image src={goto_logo} width={80} height={40} alt="GoTo Logo"/></span>
               previously known as LogMeIn,
               then as a <span className="text-teal-500">DevSecOps</span> intern at 
-              <span className="text-teal-500"> <Image src={intact} width={80} height={40} /></span>
+              <span className="text-teal-500"> <Image src={intact} width={80} height={40} alt="Intact logo" /></span>
               and finally, came back to
-              <span className="text-teal-500"> <Image src={goto_logo} width={80} height={40} /></span>
+              <span className="text-teal-500"> <Image src={goto_logo} width={80} height={40} alt="Goto Logo" /></span>
               as a Front-end intern for my final internship before being hired full-time.
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200 shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
@@ -84,7 +84,7 @@ export default function Home() {
             <h3 className="text-3xl py-1 dark:text-white ">Professional Experience</h3>
             <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-              <Image src={goto_logo} width={100} height={100} />
+              <Image src={goto_logo} width={100} height={100} alt="Goto logo" />
               <h3 className="text-lg font-medium pt-8 pb-2  text-teal-500">
                 Full-Stack intern
               </h3>
@@ -108,7 +108,7 @@ export default function Home() {
             </div>
             <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-              <Image src={intact} width={100} height={100} />
+              <Image src={intact} width={100} height={100} alt="intact" />
               <h3 className="text-lg font-medium pt-8 pb-2  text-teal-500">
                 DevSecOps intern
               </h3>
@@ -124,7 +124,7 @@ export default function Home() {
             </div>
             <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-              <Image src={hlc} width={100} height={100} />
+              <Image src={hlc} width={100} height={100} alt="hlc"/>
               <h3 className="text-lg font-medium pt-8 pb-2  text-teal-500">
                 Internship in Web Developpement
               </h3>
@@ -135,7 +135,7 @@ export default function Home() {
                 develop a fully customisable website that can easily be changed by non-programmers. 
                 I also documented the process and became acustomed to the <span className="text-teal-500">Agile</span> methodology using the <span className="text-teal-500">Atlassian</span> tools.
               </p>
-              <Image src={hlc_1} width={1000} height={462} />
+              <Image src={hlc_1} width={1000} height={462} alt="hlc"/>
              <div className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200 shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
               <h4 className="py-4 text-teal-600">Skills</h4>
               <p className="text-gray-800 py-1">JavaScript</p>
@@ -147,7 +147,7 @@ export default function Home() {
             </div>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={estime} width={180} height={140} />
+              <Image src={estime} width={180} height={140} alt="estime"/>
               <h3 className="text-lg font-medium pt-8 pb-2 text-teal-500">
                 Part-time Programming Instructor
               </h3>
@@ -158,7 +158,7 @@ export default function Home() {
                 like Python and JavaScript and platforms like MakeCodeArcade and Scratch and 
                 for remote classes or various robots for in-person ones.  
               </p>
-              <Image src={estime_1} width={400} height={600} />
+              <Image src={estime_1} width={400} height={600} alt="estime" />
               <h4 className="py-4 text-teal-600">Skills</h4>
               <p className="text-gray-800 py-1">Animating</p>
               <p className="text-gray-800 py-1">Coding Knowledge</p>
@@ -185,9 +185,9 @@ export default function Home() {
             
             </div>
             <div className="basis-1/3 flex-1">
-            <Image src={glo_1} width={800} height={600} />
-            <Image src={glo_2} width={800} height={600} />
-            <Image src={glo_3} width={800} height={600} />
+            <Image src={glo_1} width={800} height={600} alt="glo" />
+            <Image src={glo_2} width={800} height={600} alt="glo" />
+            <Image src={glo_3} width={800} height={600} alt="glo" />
             </div>
             <div className="basis-1/3 flex-1">
             
